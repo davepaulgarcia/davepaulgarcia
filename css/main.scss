@@ -232,12 +232,12 @@ main {
             text-decoration: none;
             text-transform: uppercase;
             font-weight: bold;
-            background-color: color(primary);
+            background-color: #fff;
             display: block;
             text-align: center;
             margin: 50px auto 0 auto;
             padding: $padding;
-            color: #fff;
+            color: color(primary);
 
             @include desktop {
                 display: inline-block;
